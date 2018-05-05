@@ -116,18 +116,19 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 
 //Code Here
 function divider(numbersArray){
-  arr = []
-  arr1 = []
-  arr2 = []
+  evens = []
+  odds = []
+  combined = []
   for(var i = 0; i < numbersArray.length; i++){
     if(numbersArray[i] % 2 == 0){
-      arr.push(numbersArray[i])
+      evens.push(numbersArray[i])
 }else{
-  arr1.push(numbersArray[i])
+  odds.push(numbersArray[i])
 }
-arr2.splice(0,0,arr,arr1)
+
   }
-  return arr2
+  combined = [evens, odds]
+  return combined
 }
 ////////// PROBLEM 7 //////////
 
