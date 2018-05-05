@@ -243,7 +243,7 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 function addTen(numbers){
   newArray = []
   numbers.forEach(element => {
-    newArray.push(element+10)
+    newArray.push(Number(element+10))
   });
 return newArray
 }
