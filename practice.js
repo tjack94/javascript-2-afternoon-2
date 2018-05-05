@@ -240,6 +240,13 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 */
   
 //Code Here
+function addTen(numbers){
+  newArray = []
+  numbers.forEach(element => {
+    newArray.push(element+10)
+  });
+return newArray
+}
 
 
 
