@@ -343,7 +343,7 @@ console.log(devMountainEmployees.length)
 */
 
 //Code Here
-function removeCahlan(devMountainEmployees){
+function removeCahlan(){
   for(var i = 0; i < devMountainEmployees.length; i++){
     if(devMountainEmployees[i]== cahlan){
       devMountainEmployees.splice(i,1)
@@ -351,7 +351,7 @@ function removeCahlan(devMountainEmployees){
   }
   return devMountainEmployees
 }
-
+removeCahlan()
 
 ////////// PROBLEM 13 //////////
 
