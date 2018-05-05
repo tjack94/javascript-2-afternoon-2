@@ -334,16 +334,23 @@ var colt = {
 */
 
 //Code Here
+devMountainEmployees.push(tyler, cahlan, ryan, colt)
 
-
-
+console.log(devMountainEmployees.length)
 /*
   Now let's say Cahlan has a mental breakdown and has to take a leave of absence to 'find himself'.
   Loop through your devMountainEmployees until you find cahlan, then remove him from the array.
 */
 
 //Code Here
-
+function removeCahlan(devMountainEmployees){
+  for(var i = 0; i < devMountainEmployees.length; i++){
+    if(devMountainEmployees[i]== cahlan){
+      devMountainEmployees.splice(i,1)
+    }
+  }
+  return devMountainEmployees
+}
 
 
 ////////// PROBLEM 13 //////////
