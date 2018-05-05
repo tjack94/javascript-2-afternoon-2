@@ -408,7 +408,7 @@ users.push(user1, user2,user3)
 //Code Here
 function removeTyler(){
   for(var i = 0; i < users.legnth; i++){
-    if(users[i]["email"]= "tylermcginnis33@gmail.com"){
+    if(users[i].email= "tylermcginnis33@gmail.com"){
       users.splice(i,1)
     }
   }
