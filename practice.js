@@ -363,7 +363,7 @@ removeCahlan()
 
 //Code Here
 
-
+var users = []
 
 /*
   Now add three user objects to your users array. Each user object should contain the following properties. name, email, password, username.
@@ -381,8 +381,19 @@ var user1 = {
 // Do not edit the code above.
 
 //Code Here
-
-
+var user2 = {
+  name: "taylor",
+  email: "blahblahblah@me.com",
+  pasword: "password",
+  username: "taylor1"
+}
+var user3 = {
+  name: "john",
+  email: "email@email.com",
+  password: "password",
+  username: "johnnyboy"
+}
+users.push(user1, user2,user3)
 
 /*
   Now you have a very common data structure. 
@@ -395,8 +406,16 @@ var user1 = {
 */
 
 //Code Here
+function removeTyler(){
+  for(var i = 0; i < users.legnth; i++){
+    if(users[i]["email"]= "tylermcginnis33@gmail.com"){
+      users.splice(i,1)
+    }
+  }
+  return users
+}
 
-
+removeTyler()
 
 /*
   The activity we just did is very much how data works in 'the real world'.
