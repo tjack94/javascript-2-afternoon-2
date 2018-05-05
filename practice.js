@@ -406,16 +406,16 @@ users.push(user1, user2,user3)
 */
 
 //Code Here
-function removeTyler(arr){
-  for(var i = 0; i < arr.legnth; i++){
-    if(arr[i]== user1){
-      arr.splice(i,1)
+function removeTyler(){
+  for(var i = 0; i < users.legnth; i++){
+    if(users[i]== user1){
+      users.splice(i,1)
     }
   }
   return users
 }
 
-removeTyler(users)
+removeTyler()
 
 /*
   The activity we just did is very much how data works in 'the real world'.
