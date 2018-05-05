@@ -182,21 +182,30 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 //Code Here
 function removeItem(myGroceryList, item){
+  var empty1 = []
+  if(item){
   for(var i = 0; i< myGroceryList.length; i++){
     if(myGroceryList[i] == item){
       myGroceryList.splice(i,1)
     }
   }
 return myGroceryList
-  }
+  }else return empty1
+}
+
 
   function addItem(myGroceryList, item){
+    var empty = []
+    if(item){
     if(myGroceryList.includes(item)){
 
     }else{
       myGroceryList.push(item)
     }
     return myGroceryList
+  }else{
+    return empty
+  }
   }
 
 
