@@ -125,7 +125,7 @@ function divider(numbersArray){
 }else{
   arr1.push(numbersArray[i])
 }
-arr2.push(arr,arr1)
+arr2.slpice(0,0,arr,arr1)
   }
   return arr2
 }
