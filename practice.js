@@ -220,7 +220,7 @@ return myGroceryList
 //Code Here
 function maker(){
   array = []
-  for (var i = 1; i < 215; i++){
+  for (var i = 1; i <= 215; i++){
     array.push(i)
   }
 return array
