@@ -148,6 +148,10 @@ var getRandomArbitrary = function() {
 */
 
 //Code Here
+function finder (array){
+  var random = getRandomArbitrary()
+  return array.includes(random)
+}
 
 
 
